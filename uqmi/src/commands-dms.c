@@ -375,6 +375,38 @@ cmd_dms_reset_prepare(struct qmi_dev *qmi, struct qmi_request *req, struct qmi_m
 	return QMI_CMD_REQUEST;
 }
 
+static void
+cmd_dms_get_operating_mode_cb(struct qmi_dev *qmi, struct qmi_request *req, struct qmi_msg *msg)
+{
+	struct qmi_dms_get_operating_mode_response res;
+
+	const char *modes[] = {
+		[QMI_DMS_OPERATING_MODE_ONLINE] = "online",
+		[QMI_DMS_OPERATING_MODE_LOW_POWER] = "low_power",
+		[QMI_DMS_OPERATING_MODE_FACTORY_TEST] = "factory_test",
+		[QMI_DMS_OPERATING_MODE_OFFLINE] = "offline",
+		[QMI_DMS_OPERATING_MODE_RESET] = "reset",
+		[QMI_DMS_OPERATING_MODE_SHUTTING_DOWN] = "shutting_down",
+		[QMI_DMS_OPERATING_MODE_PERSISTENT_LOW_POWER] = "persistent_low_power",
+		[QMI_DMS_OPERATING_MODE_MODE_ONLY_LOW_POWER] = "mode_only_low_power",
+	};
+	int s = 0;
+
+	qmi_parse_dms_get_operating_mode_response(msg, &res);
+	if (res.set.mode &&
+	    res.data.mode < ARRAY_SIZE(modes))
+		s = res.data.mode;
+
+	blobmsg_add_string(&status, NULL, modes[s]);
+}
+
+static enum qmi_cmd_result
+cmd_dms_get_operating_mode_prepare(struct qmi_dev *qmi, struct qmi_request *req, struct qmi_msg *msg, char *arg)
+{
+	qmi_set_dms_get_operating_mode_request(msg);
+	return QMI_CMD_REQUEST;
+}
+
 #define cmd_dms_set_operating_mode_cb no_cb
 static enum qmi_cmd_result
 cmd_dms_set_operating_mode_prepare(struct qmi_dev *qmi, struct qmi_request *req, struct qmi_msg *msg, char *arg)
