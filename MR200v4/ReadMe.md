@@ -1,7 +1,7 @@
 **Openwrt 19.07.8 image for TP-Link MR200v4**
 
-Install via TFTP. Rename openwrt_19.07.8_tp_recovery.bin to tp_recovery.bin.\
-Copy tp_recovery.bin to TFTP directory. TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewalls.
+Install via TFTP. Rename openwrt_19.07.8_tp_recovery.bin to tp_recovery.bin.Copy tp_recovery.bin to TFTP directory.\
+TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewalls.
 
 1. Power off router
 2. Connect router to your TFTP server.
@@ -21,6 +21,6 @@ After succcess full installation you need to add your wwan interface.
    Add your AN settings
 6. Advanced Settings - Modem timeout: 20
 7. Firewall Settings - Create / Assign firewall-zon
-  - Save
-  - Save & Apply
+  -Save
+  -Save & Apply
 
