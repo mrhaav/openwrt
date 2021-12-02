@@ -9,3 +9,14 @@ TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewal
 4. TFTP loading should now start
 5. Wait until router has restarted
 6. Logga in with browser to 192.168.1.1
+
+After succcess full installation you need to add your wwan interface.
+1. Network - interfaces
+2. Add new interface
+3. Name: wwan Protocol: QMI Cellular - Create interface
+4. General Settings - Modem device: /dev/cdc-wdm0 and add your AN settings
+   Advanced Settings - Modem timeout: 20
+   Firewall Settings - Create / Assign firewall-zon
+  - Save
+  - Save & Apply
+
