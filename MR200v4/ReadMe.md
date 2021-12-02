@@ -20,7 +20,13 @@ After succcess full installation you need to add your wwan interface.
    Modem device: /dev/cdc-wdm0\
    Add your AN settings
 6. Advanced Settings - Modem timeout: 20
-7. Firewall Settings - Create / Assign firewall-zon
-  -Save
-  -Save & Apply
+7. Firewall Settings - Create / Assign firewall-zon\
+  -Save\
+  -Save & Apply\
 
+Log in via ssh and add dhcp = 0 to your wwan configuration.
+uci show network\
+uci set network.wwan.dhcp=0\
+uci commit network\
+
+Restart your wwan interface
