@@ -16,7 +16,7 @@ After succcess full installation you need to add your wwan interface.
 3. Name: wwan\
    Protocol: QMI Cellular\
    -Create interface
-5. General Settings -
+5. General Settings -\
    Modem device: /dev/cdc-wdm0\
    Add your AN settings
 6. Advanced Settings - Modem timeout: 20
