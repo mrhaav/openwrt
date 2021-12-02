@@ -25,8 +25,8 @@ After succcess full installation you need to add your wwan interface.
   -Save & Apply\
 
 Log in via ssh and add dhcp = 0 to your wwan configuration.
-uci show network\
-uci set network.wwan.dhcp=0\
-uci commit network\
+`uci show network`
+`uci set network.wwan.dhcp=0`
+`uci commit network`
 
 Restart your wwan interface
