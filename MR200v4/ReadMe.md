@@ -23,7 +23,7 @@ After succcess full installation you need to add your wwan interface.
 6. Advanced Settings - Modem timeout: 20
 7. Firewall Settings - Create / Assign firewall-zon\
   -Save\
-  -Save & Apply\
+  -Save & Apply
 
 \
 Log in via ssh and add dhcp = 0 to your wwan configuration.\
