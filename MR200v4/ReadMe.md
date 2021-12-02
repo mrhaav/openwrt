@@ -10,6 +10,7 @@ TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewal
 5. Wait until router has restarted
 6. Logga in with browser to 192.168.1.1
 
+\
 After succcess full installation you need to add your wwan interface.
 1. Network - interfaces
 2. Add new interface
@@ -28,6 +29,6 @@ After succcess full installation you need to add your wwan interface.
 Log in via ssh and add dhcp = 0 to your wwan configuration.\
 `uci show network`\
 `uci set network.wwan.dhcp=0`\
-`uci commit network`\
+`uci commit network`
 
 Restart your wwan interface
