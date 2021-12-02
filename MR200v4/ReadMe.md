@@ -32,3 +32,6 @@ Log in via ssh and add dhcp = 0 to your wwan configuration.\
 `uci commit network`
 
 Restart your wwan interface
+
+\
+You can revert back to TP-Link firmware with back_to_TPlink_tp_recovery.bin. It´s based on Archer MR200(EU)_V4_210201.
