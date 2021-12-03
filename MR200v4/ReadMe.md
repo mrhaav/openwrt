@@ -8,7 +8,7 @@ TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewal
 3. Press WPS/RESET while you power on router, keep pressed for 10s
 4. TFTP loading should now start
 5. Wait until router has restarted
-6. Logga in with browser to 192.168.1.1
+6. Log in with browser to 192.168.1.1
 
 \
 After succcess full installation you need to add your wwan interface.
