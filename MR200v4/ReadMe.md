@@ -19,7 +19,7 @@ After succcess full installation you need to add your wwan interface.
    -Create interface
 5. General Settings -\
    Modem device: /dev/cdc-wdm0\
-   Add your AN settings
+   Add your APN settings
 6. Advanced Settings - Modem timeout: 20
 7. Firewall Settings - Create / Assign firewall-zon\
   -Save\
