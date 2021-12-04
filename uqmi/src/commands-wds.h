@@ -33,6 +33,10 @@
 	__uqmi_command(wds_set_ip_family, set-ip-family, required, QMI_SERVICE_WDS), \
 	__uqmi_command(wds_set_autoconnect_settings, set-autoconnect, required, QMI_SERVICE_WDS), \
 	__uqmi_command(wds_reset, reset-wds, no, QMI_SERVICE_WDS), \
+	__uqmi_command(wds_get_profile_settings, get-profile-settings, required, QMI_SERVICE_WDS), \
+	__uqmi_command(wds_get_default_profile_number, get-default-profile-number, required, QMI_SERVICE_WDS), \
+	__uqmi_command(wds_modify_profile, modify-profile, required, QMI_SERVICE_WDS), \
+	__uqmi_command(wds_set_pdp_type, pdp-type, required, CMD_TYPE_OPTION), \
 	__uqmi_command(wds_get_current_settings, get-current-settings, no, QMI_SERVICE_WDS) \
 
 
@@ -50,5 +54,13 @@
 		"  --get-data-status:                Get current data access status\n" \
 		"  --set-ip-family <val>:            Set ip-family (ipv4, ipv6, unspecified)\n" \
 		"  --set-autoconnect <val>:          Set automatic connect/reconnect (disabled, enabled, paused)\n" \
+		"  --get-profile-settings <val,#>:   Get APN profile settings (3gpp, 3gpp2),#\n" \
+		"  --get-default-profile-number <val>:  Get default profile number (3gpp, 3gpp2)\n" \
+		"  --modify-profile <val>,#          Modify profile number (3gpp, 3gpp2)\n" \
+		"    --apn <apn>:                    Use APN\n" \
+		"    --pdp-type ipv4|ipv6|ipv4v6>:   Use pdp-type for the connection\n" \
+		"    --username <name>:              Use network username\n" \
+		"    --password <password>:          Use network password\n" \
+		"    --auth-type pap|chap|both|none: Use network authentication type\n" \
 		"  --get-current-settings:           Get current connection settings\n" \
 
