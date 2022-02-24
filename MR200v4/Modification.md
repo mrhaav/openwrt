@@ -8,9 +8,9 @@ mr200)\
         set_wifi_led "$boardname:white:wlan"\
         ;;\
 ```
-**mr200v4)  
-	ucidef_set_led_netdev "lan" "lan" "$boardname:white:lan" "eth0.1"**  
-	ucidef_set_led_netdev "wan" "wan" "$boardname:white:wan" "eth0.2"  
-	set_wifi_led "$boardname:white:wlan"  
-;;  
+mr200v4)
+	ucidef_set_led_netdev "lan" "lan" "$boardname:white:lan" "eth0.1"
+	ucidef_set_led_netdev "wan" "wan" "$boardname:white:wan" "eth0.2"
+	set_wifi_led "$boardname:white:wlan"
+;;
 ```
