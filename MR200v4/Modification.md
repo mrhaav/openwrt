@@ -40,3 +40,37 @@ tplink,c20-v1)
                 name="mr200v4"
                 ;;
 ```
+\
+\
+**file: target/linux/ramips/image/mt76x8.mk**
+
+define Device/tplink_c50-v4  
+&emsp;$(Device/tplink)  
+&emsp;DTS := ArcherC50V4  
+&emsp;IMAGE_SIZE := 7616k  
+&emsp;DEVICE_TITLE := TP-Link ArcherC50 v4  
+&emsp;TPLINK_FLASHLAYOUT := 8MSUmtk  
+&emsp;TPLINK_HWID := 0x001D589B  
+&emsp;TPLINK_HWREV := 0x93  
+&emsp;TPLINK_HWREVADD := 0x2  
+&emsp;TPLINK_HVERSION := 3  
+&emsp;DEVICE_PACKAGES := kmod-mt76x2  
+&emsp;IMAGES := sysupgrade.bin  
+endef  
+TARGET_DEVICES += tplink_c50-v4  
+```
+define Device/tplink_mr200-v4
+  $(Device/tplink)
+  DTS := ArcherMR200v4
+  SUPPORTED_DEVICES := mr200v4
+  IMAGE_SIZE := 7872k
+  DEVICE_TITLE := TP-Link ArcherMR200 v4
+  TPLINK_FLASHLAYOUT := 8MLmtk
+  TPLINK_HWID := 0x001D589B
+  TPLINK_HWREV := 0x93
+  TPLINK_HWREVADD := 0x13
+  TPLINK_HVERSION := 3
+  DEVICE_PACKAGES := kmod-mt76x0e kmod-usb-ohci kmod-usb2 kmod-usb-net kmod-usb-net-qmi-wwan uqmi
+endef
+TARGET_DEVICES += tplink_mr200-v4
+```
