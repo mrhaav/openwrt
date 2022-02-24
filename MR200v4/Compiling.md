@@ -1,6 +1,6 @@
-##Modifications done on 19.07.8
+## Modifications done on 19.07.8
 
-Add file ArcherMR200v4.dts to target/linux/ramips/dts/
+Add file ArcherMR200v4.dts to target/linux/ramips/dts/  
 \
 Add mr200v4 parts:
 
