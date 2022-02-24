@@ -1,4 +1,4 @@
-**Openwrt 19.07.8 image for TP-Link MR200v4**
+## Openwrt 19.07.8 image for TP-Link MR200v4
 
 Install via TFTP. Rename openwrt_19.07.8_tp_recovery.bin to tp_recovery.bin. Copy tp_recovery.bin to TFTP directory.\
 TFTP server IP address 192.168.0.225 netmask 255.255.255.0. Turn off all firewalls.
