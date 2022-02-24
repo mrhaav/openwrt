@@ -32,9 +32,9 @@ tplink,c20-v1)
 \
 **file: target/linux/ramips/base-files/lib/ramips.sh**
 
-&emsp;*"MR200")
-&emsp;&emsp;name="mr200"
-&emsp;&emsp;;;
+&emsp;*"MR200")  
+&emsp;&emsp;name="mr200"  
+&emsp;&emsp;;;  
 ```
         *"MR200 V4")
                 name="mr200v4"
