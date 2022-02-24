@@ -1,4 +1,4 @@
-Add bold parts:
+Add mr200v4 parts:
 
 **file: target/linux/ramips/base-files/etc/board.d/01_leds**
 
@@ -26,5 +26,17 @@ tplink,c20-v1)
         mr200v4)
                 ucidef_add_switch "switch0" \
                         "1:lan" "2:lan" "3:lan" "4:wan" "6t@eth0"
+                ;;
+```
+\
+\
+**file: target/linux/ramips/base-files/lib/ramips.sh**
+
+&emsp;*"MR200")
+&emsp;&emsp;name="mr200"
+&emsp;&emsp;;;
+```
+        *"MR200 V4")
+                name="mr200v4"
                 ;;
 ```
