@@ -13,7 +13,8 @@ opkg install uqmi_2022-03-15-0.4_mipsel_24kc.ipk
 uqmi version 2022-04-22-0.4 include a daemon how will check connection every 30sec.
 If the connection is released from the network, the daemon will re-connect the interface.
 This daemon will also send the rssi value to uqmi_led.sh for trigger signal strength LEDs.
-
+\
+\
 uqmi_led.sh example
 ```
 LED1=$(readlink -f /sys/class/leds/mr200v4:white:signal1)
