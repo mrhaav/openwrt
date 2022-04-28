@@ -63,7 +63,7 @@ Anumber=$(sed -n '1p' $receivedSMS)
 if [ $Anumber = '+46123456' ]
 then
 	first_row=$(sed -n '2p' $receivedSMS)
-	second_row$(sed -n '3p' $receivedSMS)
+	second_row=$(sed -n '3p' $receivedSMS)
 #	Execute your commands
 	rm $receivedSMS
 else
