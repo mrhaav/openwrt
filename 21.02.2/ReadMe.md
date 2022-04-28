@@ -18,7 +18,7 @@ This daemon will also send the rssi value to /usr/bin/uqmi_led.sh for trigger si
 When the daemon is stoped it will send rssi value = -200 to turn off all LEDs.
 
 uqmi version 2022-04-22-0.5 includes a SMS receiver. It will store received SMS in /var/sms folder. The daemon will send the file name to /usr/bin/uqmi_sms.sh.
-The fisrt row in the SMS file is the senders phone number and the following rows are the text message.
+The first row in the SMS file is the senders phone number and the following rows are the text message.
 
 
 uqmi_led.sh example for MR200v4
@@ -52,6 +52,7 @@ else
 	echo default-on > $LED3/trigger
 fi
 ```
+
 
 uqmi_sms.sh example
 ```
