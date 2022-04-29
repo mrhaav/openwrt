@@ -68,5 +68,5 @@ then
 #	Execute your commands
 	rm $receivedSMS
 else
-	logget -t SMS Unauthorized Anumber
+	logger -t SMS Unauthorized Anumber
 fi
