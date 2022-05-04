@@ -70,4 +70,5 @@ then
 	rm $receivedSMS
 else
 	logger -t SMS Unauthorized Anumber
+	rm $receivedSMS
 fi
