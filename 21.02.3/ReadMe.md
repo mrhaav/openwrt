@@ -21,6 +21,9 @@ When the daemon is stoped it will send rssi value = -200 to turn off all LEDs.
 An SMS receiver will store received SMS in /var/sms folder. The daemon will send the file name to /usr/bin/uqmi_sms.sh.
 The first row in the SMS file is the senders phone number and the following rows are the text message.
 
+uqmi_led.sh and uqmi_sms.sh are not included in the ipk file. You need to create the files your self and make them executable,
+`chmod +x <file_name>`.
+
 \
 uqmi_led.sh example for MR200v4
 ```
