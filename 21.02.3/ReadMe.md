@@ -6,8 +6,8 @@ Go to the file, right click on Download button and select Copy link addess.\
 Then paste the link in your router after wget. Install with opkg.
 
 ```
-wget https://github.com/mrhaav/openwrt/raw/master/21.02.1/uqmi_2021-12-22-0.4_mipsel_24kc.ipk
-opkg install uqmi_2021-12-22-0.4_mipsel_24kc.ipk
+wget https://github.com/mrhaav/openwrt/raw/master/21.02.1/uqmi_2022-04-22-0.5_mips_24kc.ipk
+opkg install uqmi_2022-04-22-0.5_mips_24kc.ipk
 ```
 
 \
