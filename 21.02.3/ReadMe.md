@@ -57,7 +57,7 @@ else
 fi
 ```
 \
-uqmi_led.sh example for MR6400v5
+uqmi_led.sh example for MR6400v5. *Thanks to https://github.com/lupoalberto12*
 ```
 #!/bin/sh
 
