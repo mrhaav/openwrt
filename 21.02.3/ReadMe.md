@@ -4,6 +4,7 @@ Downloading file to your router:
 
 Go to the file, right click on Download button and select Copy link addess.\
 Then paste the link in your router after wget. Install with opkg.
+Choose correct version for your device and platform.
 
 ```
 wget https://github.com/mrhaav/openwrt/raw/master/21.02.3/uqmi_2022-04-22-0.5_mips_24kc.ipk
