@@ -5,8 +5,10 @@ More information and source code: https://github.com/mrhaav/openwrt-packages/blo
 
 Version 2022-09-13-0.9 includes an SMS receive and send function and a connectivity daemon. 
 The SMS is stored in /var/sms/received and the file name is sent to script /usr/bin/uqmi_sms.sh. (uqmi_sms.sh is not included in the ipk file)
-The daemon will send the RSSI value to script /usr/bin/uqmi_led.sh to trigger signal strenght LEDs. (uqmi_led.sh is not included in the ipk file) 
-
+The daemon will run every 30sec and check network connectivity and send the RSSI value to script /usr/bin/uqmi_led.sh to trigger signal strenght LEDs. (uqmi_led.sh is not included in the ipk file)\
+Don´t run other uqmi scripts in parallell. The modems are not able to handle multiple umqi request at the same time.\
+If you need some special uqmi command to be exequted every 30s, add them to the daemon, `/usr/bin/uqmi_d.sh`.
+\
 Switches:\
 `uci set network.<your interface>.ipv6profile=<ipv6 profile number>` If you need an other APN for IPv6. Configure you IPv4 APN with LuCI and add the IPv6 APN with uqmi command `--create-profile` or `--modify-profile`\
 \
