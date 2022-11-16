@@ -15,15 +15,67 @@ Switches:\
 `uci set network.<your interface>.daemon=false` If you would like to turn off the daemon.\
 \
 Don´t foget to run `uci commit network`.
-
-
-
+\
+\
 Downloading file to your router:
 
-Choose OpenWrt version and target.
+Choose OpenWrt version and target.\
 Go to the file, right click on Download button and select Copy link addess.\
 Then paste the link in your router after wget.
 ```
 wget https://github.com/mrhaav/openwrt/raw/master/22.03.2/uqmi_2022-09-13-0.9_mipsel_24kc.ipk
 opkg install uqmi_2022-09-13-0.9_mipsel_24kc.ipk
+```
+
+
+
+
+uqmi_led.sh example for MR200v4
+```
+#!/bin/sh
+
+rssi=$1
+
+LED1=$(readlink -f /sys/class/leds/mr200v4:white:signal1)
+LED2=$(readlink -f /sys/class/leds/mr200v4:white:signal2)
+LED3=$(readlink -f /sys/class/leds/mr200v4:white:signal3)
+
+if [ "${rssi}" -eq -200 ]
+then
+	echo none > $LED1/trigger
+	echo none > $LED2/trigger
+	echo none > $LED3/trigger
+elif [ "${rssi}" -le -90 ]
+then
+	echo default-on > $LED1/trigger
+	echo none > $LED2/trigger
+	echo none > $LED3/trigger
+elif [ "${rssi}" -le -70 ]
+then
+	echo default-on > $LED1/trigger
+	echo default-on > $LED2/trigger
+	echo none > $LED3/trigger
+else
+	echo default-on > $LED1/trigger
+	echo default-on > $LED2/trigger
+	echo default-on > $LED3/trigger
+fi
+```
+
+uqmi_sms.sh example
+```
+#!/bin/sh
+
+receivedSMS=$1
+Bnumber=$(sed -n '1p' $receivedSMS)
+if [ $Bnumber = '+46123456' ]
+then
+	first_row=$(sed -n '2p' $receivedSMS)
+	second_row=$(sed -n '3p' $receivedSMS)
+#	Execute your commands
+	rm $receivedSMS
+else
+	logger -t SMS Unauthorized Anumber
+	rm $receivedSMS
+fi
 ```
