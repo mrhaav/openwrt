@@ -11,7 +11,7 @@ Switches:\
 `uci set network.<your interface>.ipv6profile=<ipv6 profile number>` If you need an other APN for IPv6. Configure you IPv4 APN with LuCI and add the IPv6 APN with uqmi command `--create-profile` or `--modify-profile`\
 `uci set network.<your interface>.abort_search=false` If you have you modem in poor radio coverage, you can let the modem search for network for ever (default, it will search for 35 sec).\
 `uci set network.<your interface>.daemon=false` If you would like to turn off the daemon.\
-Don´t foget to run `uci commit network`.\
+Don´t foget to run `uci commit network`.
 
 
 Downloading file to your router:
