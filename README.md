@@ -16,7 +16,7 @@ Switches:\
 \
 Don´t foget to run `uci commit network`.
 \
-\
+
 
 Downloading file to your router:
 
