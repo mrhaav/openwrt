@@ -15,12 +15,15 @@ Switches:\
 `uci set network.<your interface>.daemon=false` If you would like to turn off the daemon.\
 \
 Don´t foget to run `uci commit network`.
-\
+
 
 
 Downloading file to your router:
 
+Choose OpenWrt version and target.
 Go to the file, right click on Download button and select Copy link addess.\
 Then paste the link in your router after wget.
-
-`wget https://github.com/mrhaav/openwrt/raw/master/19.07.8/uqmi_2021-12-22-0.3_mipsel_24kc.ipk`
+```
+wget https://github.com/mrhaav/openwrt/raw/master/22.03.2/uqmi_2022-09-13-0.9_mipsel_24kc.ipk
+opkg install uqmi_2022-09-13-0.9_mipsel_24kc.ipk
+```
