@@ -28,8 +28,8 @@ opkg install uqmi_2022-09-13-0.9_mipsel_24kc.ipk
 ```
 
 
-
-
+\
+\
 uqmi_led.sh example for MR200v4
 ```
 #!/bin/sh
@@ -61,7 +61,8 @@ else
 	echo default-on > $LED3/trigger
 fi
 ```
-
+\
+\
 uqmi_sms.sh example
 ```
 #!/bin/sh
