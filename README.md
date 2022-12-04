@@ -5,9 +5,9 @@ More information and source code: https://github.com/mrhaav/openwrt-packages/blo
 
 Latest version: 2022-11-29-0.10
 
-From version 2022-09-13-0.9, an SMS receive/send function and a connectivity daemon are included. 
-The SMS is stored in /var/sms/received and the file name is sent to script /usr/bin/uqmi_sms.sh. (uqmi_sms.sh is not included in the ipk file)
-The daemon will run every 30sec and check the network connectivity and send the RSSI value to script /usr/bin/uqmi_led.sh to trigger signal strenght LEDs. (uqmi_led.sh is not included in the ipk file)\
+From version 2022-09-13-0.9, an SMS receive/send function and a connectivity daemon are included.\
+The SMS is stored in /var/sms/received and the file name is sent to script /usr/bin/uqmi_sms.sh (uqmi_sms.sh is not included in the ipk file).
+The daemon will run every 30sec and check the network connectivity and send the RSSI value to script /usr/bin/uqmi_led.sh to trigger signal strenght LEDs (uqmi_led.sh is not included in the ipk file).\
 Don´t run other uqmi scripts in parallell. The modems are not able to handle multiple umqi request at the same time.\
 If you need some special uqmi command to be exequted every 30s, add them to the daemon, `/usr/bin/uqmi_d.sh`.\
 \
