@@ -24,7 +24,7 @@ If you would like to turn off the daemon.\
 Don´t foget to run `uci commit network`.
 \
 \
-Downloading file to your router:
+Downloading file to your router:\
 Choose OpenWrt version and target.\
 Go to the file, right click on Download button and select Copy link addess.\
 Then paste the link in your router after wget.
