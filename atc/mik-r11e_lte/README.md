@@ -20,7 +20,8 @@ luci-proto-atc
 ```
 Reboot\
 \
-Ipv6 is not verified
+Ipv6 is not verified.
+\
 \
 If you would like to install MikroTik sw:\
 <https://wiki.mikrotik.com/wiki/Manual:Netinstall>\
