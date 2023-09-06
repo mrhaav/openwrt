@@ -23,7 +23,6 @@ Reboot\
 Ipv6 is not verified.\
 \
 I have seen some issue with modem crashes, so I added `/etc/hotplug.d/usb/10-r11e_lte`\
-`10-r11e_lte`\
 ```
 [ $ACTION = 'add' -a $PRODUCT = '2cd2/1/100' -a $INTERFACE = '8/6/80' ] && {
         wanIface=$(uci show network | grep "proto='atc'" | awk -F '.' '{print $2}')
