@@ -18,9 +18,10 @@ then install:
 atc-mik-r11e_lte
 luci-proto-atc
 ```
-Reboot\
+Reboot
 \
 Ipv6 is not verified.
+
 \
 
 \
