@@ -18,9 +18,11 @@ then install:
 atc-mik-r11e_lte
 luci-proto-atc
 ```
-Reboot \
+Reboot
 
+\
+\
 
 If you would like to install MikroTik sw:\
-https://wiki.mikrotik.com/wiki/Manual:Netinstall \
-and use your MAC-address to access.
+https://wiki.mikrotik.com/wiki/Manual:Netinstall
+\and use your MAC-address to access.
