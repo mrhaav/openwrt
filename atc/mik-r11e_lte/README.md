@@ -37,4 +37,4 @@ I have seen some issue with modem crashes, so I added `/etc/hotplug.d/usb/10-r11
 \
 *If you would like to install MikroTik sw:\
 <https://wiki.mikrotik.com/wiki/Manual:Netinstall>\
-and use your MAC-address to access.*
+and use your MAC-address to access your router.*
