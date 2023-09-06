@@ -21,8 +21,8 @@ luci-proto-atc
 Reboot
 
 \
-\
+
 
 If you would like to install MikroTik sw:\
 https://wiki.mikrotik.com/wiki/Manual:Netinstall
-\and use your MAC-address to access.
+and use your MAC-address to access.
