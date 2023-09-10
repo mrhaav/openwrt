@@ -18,11 +18,11 @@ then install:
 atc-mik-r11e_lte
 luci-proto-atc
 ```
-You can use WinSCP to move files from your computer to the router.
+You can use WinSCP to move files from your computer to the router.\
 \
 Reboot\
 \
-Use device `/dev/ttyACM1`
+Use device `/dev/ttyACM1`\
 \
 \
 Ipv6 is not verified.\
