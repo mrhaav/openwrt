@@ -20,6 +20,9 @@ luci-proto-atc
 ```
 Reboot\
 \
+Use device `/dev/ttyACM1`\
+\
+
 Ipv6 is not verified.\
 \
 I have seen some issue with modem crashes, so I added `/etc/hotplug.d/usb/10-r11e_lte`
