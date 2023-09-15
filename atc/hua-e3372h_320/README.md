@@ -1,7 +1,8 @@
 # Huawei E3372h-320 modem
 
 Tested on FW `11.0.1.1(H697SP1C983)`\
-Use usb-modeswitch to switch to NCM mode.
+\
+Use usb-modeswitch to switch to NCM mode.\
 You need to add a new message and change device entry of 12d1:1f01.\
 Thanks to to used `woec` at OpenWrt forum who provided the informtion, https://forum.openwrt.org/t/huawei-e3372h-320-in-ncm-mode/126018/12
 
