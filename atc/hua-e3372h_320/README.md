@@ -2,6 +2,12 @@
 
 Tested on FW `11.0.1.1(H697SP1C983)`\
 \
+Install packages:
+```
+kmod-usb-net-cdc-ncm
+kmod-usb-serial-option
+```
+
 Use usb-modeswitch to switch to NCM mode.\
 You need to add a new message and change the device entry of 12d1:1f01.\
 Thanks to to user `woec` at OpenWrt forum who provided the informtion, https://forum.openwrt.org/t/huawei-e3372h-320-in-ncm-mode/126018/12
