@@ -6,6 +6,7 @@ Install packages:
 ```
 kmod-usb-net-cdc-ncm
 kmod-usb-serial-option
+usb-modeswitch
 ```
 
 Use usb-modeswitch to switch to NCM mode.\
