@@ -1,5 +1,5 @@
 #!/bin/sh
-# LED script fot TP-Link MR6400v5
+# LED script for TP-Link MR6400v5
 
 rssi=$1
 
