@@ -21,7 +21,7 @@ wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-fm350_gl/atc-fib-fm350
 opkg install atc-fib-fm350_gl_2024-04-24-0.1_all.ipk
 ```
 
-
+\
 If you have problems with modem crashes this hotplug script may help to re-start the interface.
 
 `/etc/hotplug.d/usb/60-fm350_crash`
