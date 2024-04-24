@@ -1,12 +1,12 @@
 # Fibocom FM350-GL modem
 
-Packet dependencies:
+Packege dependencies:
 ```
 kmod-usb-serial-option
 kmod-usb-net-rndis
 comgt
 ```
-
+\
 USB hotplug script add Option driver. You can edit `/etc/hotplug.d/usb/50-fm350_driver` to use Generic driver.
 
 Support dual stack and received SMS will be stored in `/tmp/sms/rx` folder and the full path is sent to `/usr/bin/atc_rx_sms.sh <full path>`. `atc_rx_sms.sh` is not included in the package.
