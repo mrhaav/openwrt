@@ -1,6 +1,6 @@
 # Fibocom FM350-GL modem
 
-Packege dependencies:
+Package dependencies:
 ```
 kmod-usb-serial-option
 kmod-usb-net-rndis
