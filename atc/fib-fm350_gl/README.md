@@ -17,9 +17,11 @@ Support dual stack and received SMS will be stored in `/tmp/sms/rx` folder and t
 Download and install with:
 
 ```
-wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-fm350_gl/atc-fib-fm350_gl_2024-04-24-0.2_all.ipk
-opkg install atc-fib-fm350_gl_2024-04-24-0.2_all.ipk
+wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-fm350_gl/atc-fib-fm350_gl_2024-04-26-0.2_all.ipk
+opkg install atc-fib-fm350_gl_2024-04-26-0.2_all.ipk
 ```
+
+If the script doesn´t work, check in syslog. If it stops at ` offline -> registered - .....` then your service provider doesn´t use NITZ and disconnections can´t be detected. You can use `atc-fib-fm350_gl_2024-04-24-0.2_all.ipk` instead, but you have to check network connectivity by your self.
 
 \
 If you have problems with modem crashes this hotplug script may help to re-start the interface.
