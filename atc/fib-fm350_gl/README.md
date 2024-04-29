@@ -22,6 +22,7 @@ opkg install atc-fib-fm350_gl_2024-04-26-0.2_all.ipk
 ```
 \
 If you have `AT+GTUSBMODE=40` (0e8d:7126) then the AT-command port is ttyUSB2 and with `AT+GTUSBMODE=41` (0e8d:7127) the AT-command port is ttyUSB4.
+
 \
 If the script doesn´t work, check in syslog. If it stops at ` offline -> registered - .....` then your service provider doesn´t use NITZ and disconnections can´t be detected. You can use `atc-fib-fm350_gl_2024-04-24-0.2_all.ipk` instead, but you have to check network connectivity by your self.
 
