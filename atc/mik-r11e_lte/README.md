@@ -7,6 +7,7 @@ opkg install atc-mik-r11e_lte_2024-06-05-0.1_all.ipk
 ```
 Source code available at: https://github.com/mrhaav/openwrt-packages/tree/main/atc-mik-r11e_lte
 \
+\
 Tested on a MiktoTik wAP R, RBwARP-2nD.
 
 Follow installation guide on: https://openwrt.org/toh/mikrotik/common
