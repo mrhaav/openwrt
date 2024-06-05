@@ -2,8 +2,8 @@
 
 Download and install with:
 ```
-wget https://github.com/mrhaav/openwrt/raw/master/atc/mik-r11e_lte/atc-mik-r11e_lte_2023-08-27-0.1_all.ipk
-opkg install atc-mik-r11e_lte_2023-08-27-0.1_all.ipk
+wget https://github.com/mrhaav/openwrt/raw/master/atc/mik-r11e_lte/atc-mik-r11e_lte_2024-06-05-0.1_all.ipk
+opkg install atc-mik-r11e_lte_2024-06-05-0.1_all.ipk
 ```
 \
 Tested on a MiktoTik wAP R, RBwARP-2nD.
