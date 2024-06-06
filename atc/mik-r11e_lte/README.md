@@ -47,6 +47,7 @@ firewall.@rule[9].src='wan'
 ![image](https://github.com/mrhaav/openwrt/assets/62175065/ac4c5927-5297-4fe3-adee-bb0e2fc09f7e)
 \
 \
+\
 I have seen some issue with modem crashes, so I added `/etc/hotplug.d/usb/10-r11e_lte`
 ```
 [ $ACTION = 'add' -a $PRODUCT = '2cd2/1/100' -a $INTERFACE = '8/6/80' ] && {
