@@ -32,6 +32,20 @@ Reboot\
 \
 Use device `/dev/ttyACM1`\
 \
+IPv6:
+You need to open a Firewall - Trafic rule that allows ICMP from wan.
+At least:
+```
+firewall.@rule[9]=rule
+firewall.@rule[9].name='Allow modem RA'
+firewall.@rule[9].family='ipv6'
+firewall.@rule[9].proto='icmp'
+firewall.@rule[9].src_ip='fe80::1234'
+firewall.@rule[9].target='ACCEPT'
+firewall.@rule[9].src='wan'
+```
+![image](https://github.com/mrhaav/openwrt/assets/62175065/ac4c5927-5297-4fe3-adee-bb0e2fc09f7e)
+
 \
 \
 I have seen some issue with modem crashes, so I added `/etc/hotplug.d/usb/10-r11e_lte`
