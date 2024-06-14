@@ -28,6 +28,20 @@ If you don´t have any other seial USB interfaces connected it will be `/dev/tty
 If the script doesn´t work, check in syslog. If it stops at ` offline -> registered - .....` then your service provider doesn´t use NITZ and disconnections can´t be detected. You can use `atc-fib-fm350_gl_2024-04-24-0.2_all.ipk` instead, but you have to check network connectivity by your self.
 
 \
+IPv6:
+To be able to receive Router Advertisment you need to open a Firewall - Trafic rule that allows ICMP from wan.
+```
+firewall.@rule[x]=rule
+firewall.@rule[x].name='Allow modem RA'
+firewall.@rule[x].family='ipv6'
+firewall.@rule[x].proto='icmp'
+firewall.@rule[x].src_ip='fe80::1'
+firewall.@rule[x].target='ACCEPT'
+firewall.@rule[x].src='wan'
+```
+![image](https://github.com/mrhaav/openwrt/assets/62175065/1f65d67c-15fa-40f6-b693-44752998327d)
+
+\
 If you have problems with modem crashes this hotplug script may help to re-start the interface.
 
 `/etc/hotplug.d/usb/60-fm350_crash`
