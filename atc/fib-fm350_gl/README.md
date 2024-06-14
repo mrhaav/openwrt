@@ -28,7 +28,7 @@ If you don´t have any other seial USB interfaces connected it will be `/dev/tty
 If the script doesn´t work, check in syslog. If it stops at ` offline -> registered - .....` then your service provider doesn´t use NITZ and disconnections can´t be detected. You can use `atc-fib-fm350_gl_2024-04-24-0.2_all.ipk` instead, but you have to check network connectivity by your self.
 
 \
-IPv6:
+IPv6:\
 To be able to receive Router Advertisment you need to open a Firewall - Trafic rule that allows ICMP from wan.
 ```
 firewall.@rule[x]=rule
