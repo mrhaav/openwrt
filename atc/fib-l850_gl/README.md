@@ -16,7 +16,7 @@ opkg install atc-fib-l850_gl_2024-06-23-0.2_all.ipk
 ```
 \
 Change to NCM mode with `AT+GTUSBMODE=0`
-\
+
 
 IPv6:\
 To be able to receive Router Advertisment you need to open a Firewall - Trafic rule that allows ICMP from wan.
