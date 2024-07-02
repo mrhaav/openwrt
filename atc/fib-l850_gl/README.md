@@ -12,7 +12,7 @@ Download and install with:
 
 ```
 wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-l850_gl/atc-fib-l850_gl_2024-06-23-0.2_all.ipk
-opkg install atc-fib-fm350_gl_2024-06-15-0.2_all.ipk
+opkg install atc-fib-l850_gl_2024-06-23-0.2_all.ipk
 ```
 \
 Change to NCM mode with `AT+GTUSBMODE=0`
