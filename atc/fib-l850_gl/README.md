@@ -8,8 +8,15 @@ comgt
 ```
 To be used with `luci-proto-atc`\
 \
-Change to NCM mode with `AT+GTUSBMODE=0`
+Download and install with:
 
+```
+wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-l850_gl/atc-fib-l850_gl_2024-06-23-0.2_all.ipk
+opkg install atc-fib-fm350_gl_2024-06-15-0.2_all.ipk
+```
+\
+Change to NCM mode with `AT+GTUSBMODE=0`
+\
 
 IPv6:\
 To be able to receive Router Advertisment you need to open a Firewall - Trafic rule that allows ICMP from wan.
