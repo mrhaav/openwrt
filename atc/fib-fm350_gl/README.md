@@ -17,8 +17,8 @@ Support dual stack and received SMS will be stored in `/tmp/sms/rx` folder and t
 Download and install with:
 
 ```
-wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-fm350_gl/atc-fib-fm350_gl_2024-06-15-0.2_all.ipk
-opkg install atc-fib-fm350_gl_2024-06-15-0.2_all.ipk
+wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-fm350_gl/atc-fib-fm350_gl_2024-08-04-0.2_all.ipk
+opkg install atc-fib-fm350_gl_2024-08-04-0.2_all.ipk
 ```
 \
 In `AT+GTUSBMODE=40` (0e8d:7126) then the AT-command port is USB interface 4 and in `AT+GTUSBMODE=41` (0e8d:7127) the AT-command port is USB interface 6.
