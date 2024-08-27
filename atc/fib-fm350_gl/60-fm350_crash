@@ -1,0 +1,7 @@
+if ([ "$PRODUCT" = 'e8d/7126/1' ] || [ "$PRODUCT" = 'e8d/7127/1' ]) && [ "${DEVICENAME: -3}" = '1.6' ] && [ "$ACTION" = 'bind' ] && [ -f /tmp/fm350.status ]
+then
+    logger -t fm350-gl 'Modem has crashed'
+    echo $((1+$(cat /tmp/fm350.status))) > /tmp/fm350.status
+    wanIface=$(uci show network | grep "proto='atc'" | awk -F '.' '{print $2}')
+    ifup $wanIface
+fi
