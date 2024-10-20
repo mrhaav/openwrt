@@ -1,0 +1,17 @@
+# Hotplug script for loading serial USB driver to Fibocom FM350-GL modem
+# 0e8d:7126 and 0e8d:7127
+
+if ([ "$PRODUCT" = 'e8d/7126/1' ] || [ "$PRODUCT" = 'e8d/7127/1' ]) && [ "$ACTION" = add ] && [ ! -f /tmp/fm350.status ]
+then
+    if [ "$PRODUCT" = 'e8d/7126/1' ]
+    then
+        echo '0e8d 7126' > /sys/bus/usb-serial/drivers/option1/new_id
+#        echo '0e8d 7126' > /sys/bus/usb-serial/drivers/generic/new_id
+    elif [ "$PRODUCT" = 'e8d/7127/1' ]
+    then
+        echo '0e8d 7127' > /sys/bus/usb-serial/drivers/option1/new_id
+#        echo '0e8d 7127' > /sys/bus/usb-serial/drivers/generic/new_id
+    fi
+    echo 'boot' > /tmp/fm350.status
+    logger -t fm350-gl 'Serial USB driver loaded for 0e8d:'${PRODUCT:4:4}
+fi
