@@ -21,6 +21,12 @@ Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
   - Rename
     - `FM350.F09_loader_ext-verified_00.10.img` to `loader_ext-verified.img`
     - `FM350.F09_preloader_35001CF8_00.10.bin` to `preloader_k6880v1_mdot2_datacard.bin`
+\
+\
+**Firmware upgrade**
+- Launch `SP Flash Tool`
+
+![image](https://github.com/user-attachments/assets/e4a7b80f-ebdc-4c16-89ca-06c74ce57977)
 
 
 
