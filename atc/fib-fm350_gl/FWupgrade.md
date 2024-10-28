@@ -26,9 +26,12 @@ Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
 Content of `81600.0000.00.29.23.06` directory\
 ![image](https://github.com/user-attachments/assets/f19e3d80-9d24-424c-b99b-f60871d6067f)
 
-
-**Firmware upgrade**
+\
+**Firmware upgrade:**
 - Launch `SP Flash Tool`
+- Choose
+  - Download-XML
+  - Authenrication File
 
 ![image](https://github.com/user-attachments/assets/e4a7b80f-ebdc-4c16-89ca-06c74ce57977)
 
