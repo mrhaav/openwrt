@@ -4,7 +4,8 @@
 > All FW upgrades involves a risk of bricking the device\
 > Everything you do with your modem is at your own risk
 
-Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.\
+\
+Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.
 
 ## Prepare FW package:
 - Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
@@ -42,7 +43,7 @@ Content of `81600.0000.00.29.23.06` folder\
 
 \
 ![image](https://github.com/user-attachments/assets/e4a7b80f-ebdc-4c16-89ca-06c74ce57977)
-\
+
 
 ## 
 \
