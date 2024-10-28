@@ -19,5 +19,5 @@ Prepare FW package:
 - Open directory `FM350.F09_preloader`
   - Copy `FM350.F09_loader_ext-verified_00.10.img` and `FM350.F09_preloader_35001CF8_00.10.bin` to your `81600.0000.00.29.23.06` directory
   - Rename
-   - `FM350.F09_loader_ext-verified_00.10.img` to `loader_ext-verified.img`
-   - `FM350.F09_preloader_35001CF8_00.10.bin` to `preloader_k6880v1_mdot2_datacard.bin`
+    - `FM350.F09_loader_ext-verified_00.10.img` to `loader_ext-verified.img`
+    - `FM350.F09_preloader_35001CF8_00.10.bin` to `preloader_k6880v1_mdot2_datacard.bin`
