@@ -1,6 +1,6 @@
 # Firmware upgrade to 29.23.06
 
-Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
+Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.\
 \
 \
 **Prepare FW package:**
@@ -44,4 +44,4 @@ Content of `81600.0000.00.29.23.06` folder\
 [Download SP Flash Tool v6.2124](https://spflashtools.com/windows/sp-flash-tool-v6-2124)
 \
 \
-Sourec: https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
+Source and all credits to: https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
