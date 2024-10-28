@@ -1,9 +1,10 @@
 # Firmware upgrade to 29.23.06
 
-Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB. 
 > [!WARNING]
 > All FW upgrades involves a risk of bricking the device\
 > Everything you do with your modem is at your own risk
+
+Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.\
 
 ## Prepare FW package:
 - Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
@@ -47,6 +48,6 @@ Content of `81600.0000.00.29.23.06` folder\
 \
 [Download SP Flash Tool v6.2124](https://spflashtools.com/windows/sp-flash-tool-v6-2124)
 
-\
+
 \
 Source and all credits to: https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
