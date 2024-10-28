@@ -3,7 +3,9 @@
 
 Upgrade to 29.23.06
 
-Go to: https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*
+Prepare FW package:
+
+Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
 
 Download: Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7
 
