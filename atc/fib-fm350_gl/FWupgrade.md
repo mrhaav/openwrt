@@ -1,10 +1,7 @@
-## Firmware upgrade
+# Firmware upgrade upgrade to 29.23.06
 
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
-
-
-
-# Upgrade to 29.23.06
+\
 \
 Prepare FW package:
 - Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
@@ -27,6 +24,6 @@ Prepare FW package:
 
 
 
-https://spflashtools.com/windows/sp-flash-tool-v6-2124
+[Download SP Flash Tool v6.2124](https://spflashtools.com/windows/sp-flash-tool-v6-2124)
 
 https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
