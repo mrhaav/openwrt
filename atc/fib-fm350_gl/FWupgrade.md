@@ -1,8 +1,8 @@
 # Firmware upgrade to 29.23.06
 
-Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.
-[!WARNING]
-All upgrade
+Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB. 
+> [!WARNING]
+> All upgrade
 
 \
 ## Prepare FW package:
