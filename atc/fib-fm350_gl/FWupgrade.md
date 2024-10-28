@@ -1,8 +1,10 @@
 ## Firmware upgrade
 
+Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
 
 
-Upgrade to 29.23.06
+
+# Upgrade to 29.23.06
 \
 Prepare FW package:
 - Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
@@ -22,3 +24,9 @@ Prepare FW package:
   - Rename
     - `FM350.F09_loader_ext-verified_00.10.img` to `loader_ext-verified.img`
     - `FM350.F09_preloader_35001CF8_00.10.bin` to `preloader_k6880v1_mdot2_datacard.bin`
+
+
+
+https://spflashtools.com/windows/sp-flash-tool-v6-2124
+
+https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
