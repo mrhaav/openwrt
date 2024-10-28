@@ -1,16 +1,13 @@
 # Firmware upgrade
-
-
+\
+\
 Upgrade to 29.23.06
-
+\
 Prepare FW package:
-
-Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
-
-Download: Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7
-
-Extrac cab-file
-Extract FwPackage.flz
+- Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
+- Download: Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7
+- Extrac cab-file
+- Extract FwPackage.flz
 
 Copy directory 81600.0000.00.29.23.06 to a known location\
 Copy directory download_agent to your 81600.0000.00.29.23.06 directory\
