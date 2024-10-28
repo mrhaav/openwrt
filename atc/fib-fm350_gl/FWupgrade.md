@@ -48,9 +48,8 @@ Content of `81600.0000.00.29.23.06` folder\
 ##  
 \
 **Software and links:**
-
 \
-[Download SP Flash Tool v6.2124](https://spflashtools.com/windows/sp-flash-tool-v6-2124)
+Download SP Flash Tool v6.2124: https://spflashtools.com/windows/sp-flash-tool-v6-2124
 
 \
 Source and all credits to: https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
