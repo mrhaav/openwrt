@@ -1,7 +1,7 @@
 # Firmware upgrade to 29.23.06
 
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.\
-\
+
 \
 ## Prepare FW package:
 - Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
