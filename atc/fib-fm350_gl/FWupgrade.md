@@ -2,9 +2,9 @@
 
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB. 
 > [!WARNING]
-> All upgrade
+> All FW upgrades involves a risk of bricking the device
+> Everything you do with your modem is at your own risk
 
-\
 ## Prepare FW package:
 - Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
 - Download: `Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7`
