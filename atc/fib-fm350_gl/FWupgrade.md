@@ -3,8 +3,8 @@
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
 \
 \
-Prepare FW package:
-- Go to: <https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*>
+**Prepare FW package:**
+- Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
 - Download: Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7
 - Extrac cab-file
 - Extract FwPackage.flz
