@@ -2,7 +2,7 @@
 
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB. 
 > [!WARNING]
-> All FW upgrades involves a risk of bricking the device
+> All FW upgrades involves a risk of bricking the device\
 > Everything you do with your modem is at your own risk
 
 ## Prepare FW package:
