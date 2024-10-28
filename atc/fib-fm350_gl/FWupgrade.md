@@ -22,6 +22,7 @@ Upgrade is done with SP Flash Tool, v6.2124, in Windows environment.\
     - `FM350.F09_loader_ext-verified_00.10.img` to `loader_ext-verified.img`
     - `FM350.F09_preloader_35001CF8_00.10.bin` to `preloader_k6880v1_mdot2_datacard.bin`
 
+\
 
 Content of `81600.0000.00.29.23.06` directory\
 ![image](https://github.com/user-attachments/assets/f19e3d80-9d24-424c-b99b-f60871d6067f)
