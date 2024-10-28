@@ -3,7 +3,7 @@
 Upgrade is done with SP Flash Tool, v6.2124, in Windows environment with USB.\
 \
 \
-**Prepare FW package:**
+## Prepare FW package:
 - Go to [Microsoft update, Fibocom FM350-GL](https://www.catalog.update.microsoft.com/Search.aspx?q=Firmware%203500*)
 - Download: `Fibocom Wireless Inc. - Firmware - 3500.5003.2306.7`
 - Extrac `cab`-file
@@ -27,7 +27,7 @@ Content of `81600.0000.00.29.23.06` folder\
 ![image](https://github.com/user-attachments/assets/f19e3d80-9d24-424c-b99b-f60871d6067f)
 
 \
-**Firmware upgrade:**
+## Firmware upgrade:
 - Disconnect the modem from your computer
 - Launch SP Flash Tool
 - Click Download tab and choose from `donwload_agent` folder
@@ -39,9 +39,11 @@ Content of `81600.0000.00.29.23.06` folder\
 
 ![image](https://github.com/user-attachments/assets/e4a7b80f-ebdc-4c16-89ca-06c74ce57977)
 
-
+\
+\
 
 [Download SP Flash Tool v6.2124](https://spflashtools.com/windows/sp-flash-tool-v6-2124)
+
 \
 \
 Source and all credits to: https://4pda.to/forum/index.php?showtopic=1057776&st=420#entry128299931
