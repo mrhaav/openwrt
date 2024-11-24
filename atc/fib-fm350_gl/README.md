@@ -47,6 +47,6 @@ firewall.@rule[x].src='wan'
 
 \
 If you have problems with modem crashes add hotplug script `60-fm350_crash` to `/etc/hotplug.d/usb/`.
-\
 
+\
 Source code at: https://github.com/mrhaav/openwrt-packages/tree/main/atc-fib-fm350_gl
