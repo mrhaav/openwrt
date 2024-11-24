@@ -8,7 +8,7 @@ comgt
 ```
 To be used with `luci-proto-atc`\
 \
-USB hotplug script add Option driver. You can edit `/etc/hotplug.d/usb/50-fm350_driver` to use Generic driver.
+USB hotplug script add Option driver. You can edit `/etc/hotplug.d/usb/50-fm350_driver` to use Generic driver.\
 Not included in apk file. Kernel 6.6, and onwards, will detect the FM350-GL.
 
 AT command base script. Handles network disconnections if your service provider use NITZ. The FM350-GL modem has a limitied support for AT command and the only trigger for reconnection is the indication of received NITZ information, `+CTZV`.\
@@ -47,6 +47,6 @@ firewall.@rule[x].src='wan'
 
 \
 If you have problems with modem crashes add hotplug script `60-fm350_crash` to `/etc/hotplug.d/usb/`.
-
+\
 
 Source code at: https://github.com/mrhaav/openwrt-packages/tree/main/atc-fib-fm350_gl
