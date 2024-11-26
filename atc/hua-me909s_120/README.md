@@ -10,5 +10,13 @@ comgt
 ```
 To be used with `luci-proto-atc`
 
+Download and install with:
+
+OPKG
+```
+wget https://github.com/mrhaav/openwrt/raw/master/atc/hua-me909s_120/atc-hua-me909s_120_2024.11.26-1_all.ipk
+opkg install atc-hua-me909s_120_2024.11.26-1_all.ipk
+```
+
 
 IPv6 not tested.
