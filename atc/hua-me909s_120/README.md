@@ -8,6 +8,7 @@ kmod-usb-serial-option
 kmod-usb-net-cdc-ether
 comgt
 ```
-To be used with `luci-proto-atc`\
+To be used with `luci-proto-atc`
+\
 
 IPv6 not tested.
