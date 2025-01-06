@@ -2,6 +2,16 @@
 #
 # FCC unlock script for Fibocom FM350-GL modem
 #
+# Info from:
+# ModemManger: https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/blob/main/data/dispatcher-fcc-unlock/14c3?ref_type=heads
+# ROOter: https://github.com/ofmodemsandmen/RooterSource/blob/main/package/rooter/ext-rooter-basic/files/usr/lib/rooter/connect/create_hostless.sh#L237
+#
+# Lenovo (and others?): 3df8c719
+# printf "%.8s" $(echo -n "KHOIHGIUCCHHII" | sha256sum | cut -d ' ' -f 1)
+#
+# Dell DW5931e / DW5931e-eSIM: 4909b5a4
+# printf "%.8s" $(echo -n "DW5931EFCCLOCK" | sha256sum | cut -d ' ' -f 1)
+#
 
 device=$1
 VENDOR_ID_HASH="3df8c719"
@@ -22,8 +32,8 @@ then
         exit 1
     fi
 
-    [ "$mode_value" = '1' ] && echo *The modem has a One time lock'
-    [ "$mode_value" = '2' ] && echo *The modem has a Power-up lock'
+    [ "$mode_value" = '1' ] && echo 'The modem has a One time lock'
+    [ "$mode_value" = '2' ] && echo 'The modem has a Power-up lock'
 
     CHALLENGE=$(COMMAND='AT+GTFCCLOCKGEN' gcom -d "$device" -s /etc/gcom/getrun_at.gcom | grep -o '0x[0-9a-fA-F]\+' | awk '{print $1}')
     if [ -n "$CHALLENGE" ]
