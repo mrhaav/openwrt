@@ -2,7 +2,13 @@
 
 AT command based protocol
 
+Update 2025.01.10:
+Possibility to add custom AT-commands.
+Receive IPv6 DNS servers via Router Advertisment.
+
+
 Download and install:
+
 
 OPKG
 ```
