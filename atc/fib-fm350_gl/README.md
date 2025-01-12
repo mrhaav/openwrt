@@ -12,7 +12,13 @@ AT command base script. Handles network disconnections if your service provider 
 Support dual stack and received SMS will be stored in `/tmp/sms/rx` folder and the full path is sent to `/usr/bin/atc_rx_sms.sh <full path>`. `atc_rx_sms.sh` is not included in the package.\
 \
 USB hotplug script add Option driver. You can edit `/etc/hotplug.d/usb/50-fm350_driver` to use Generic driver.\
-Not included in apk file. Kernel 6.6, and onwards, will detect the FM350-GL.
+Not included in apk file. Kernel 6.6, and onwards, will detect the FM350-GL.\
+Hotplug script is not included from version 2025.01.10.
+
+\
+Update 2025.01.10:
+- Possibility to add custom AT-commands
+- Receive IPv6 DNS servers via Router Advertisment
 
 \
 Download and install with:
