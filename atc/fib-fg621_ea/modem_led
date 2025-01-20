@@ -1,0 +1,71 @@
+#!/bin/sh
+
+led_status=$1
+
+# LED names
+BOOT=red:modem
+CONFIG=yellow:modem
+SEARCHING=blue:modem
+CONNECTED=white:modem
+
+RSSI_1=white:rssi-1
+RSSI_2=white:rssi-2
+RSSI_3=white:rssi-3
+
+
+[ ${led_status::4} != 'rssi' ] && {
+    for led in $BOOT $CONFIG $SEARCHING $IP
+    do
+        echo none > /sys/class/leds/${led}/trigger
+    done
+}
+
+case $led_status in
+
+    boot )
+        echo default-on > /sys/class/leds/${BOOT}/trigger
+        ;;
+
+    config )
+        echo default-on > /sys/class/leds/${CONFIG}/trigger
+        ;;
+
+    searching )
+        echo default-on > /sys/class/leds/${SEARCHING}/trigger
+        ;;
+
+    connected )
+        echo default-on > /sys/class/leds/${IP}/trigger
+        ;;
+
+    rssi-0 )
+        echo none > /sys/class/leds/${RSSI_3}/trigger
+        echo none > /sys/class/leds/${RSSI_2}/trigger
+        echo none > /sys/class/leds/${RSSI_1}/trigger
+        ;;
+
+    rssi-1 )
+        echo none > /sys/class/leds/${RSSI_3}/trigger
+        echo none > /sys/class/leds/${RSSI_2}/trigger
+        echo default-on > /sys/class/leds/${RSSI_1}/trigger
+        ;;
+
+    rssi-2 )
+        echo none > /sys/class/leds/${RSSI_3}/trigger
+        echo default-on > /sys/class/leds/${RSSI_2}/trigger
+        echo default-on > /sys/class/leds/${RSSI_1}/trigger
+        ;;
+
+    rssi-3 )
+        echo default-on > /sys/class/leds/${RSSI_3}/trigger
+        echo default-on > /sys/class/leds/${RSSI_2}/trigger
+        echo default-on > /sys/class/leds/${RSSI_1}/trigger
+        ;;
+
+    off )
+        echo none > /sys/class/leds/${RSSI_3}/trigger
+        echo none > /sys/class/leds/${RSSI_2}/trigger
+        echo none > /sys/class/leds/${RSSI_1}/trigger
+        ;;
+
+esac
