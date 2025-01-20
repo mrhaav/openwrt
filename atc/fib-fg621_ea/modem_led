@@ -14,7 +14,7 @@ RSSI_3=white:rssi-3
 
 
 [ ${led_status::4} != 'rssi' ] && {
-    for led in $BOOT $CONFIG $SEARCHING $IP
+    for led in $BOOT $CONFIG $SEARCHING $CONNECTED
     do
         echo none > /sys/class/leds/${led}/trigger
     done
