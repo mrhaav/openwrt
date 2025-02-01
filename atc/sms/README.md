@@ -3,7 +3,7 @@
 SMS support to the atc protocol.
 
 
-## Receiving SMS
+**Receiving SMS**
 Received SMS are stored in `/var/sms/rx` folder.
 The SMS is stored as sender number in the first line and the text in the following lines.
 ```
@@ -15,7 +15,7 @@ The file name is sent to `/usr/bin/atc_sms_user`. Create your own SMS based comm
 `/usr/bin/atc_sms_user` is not included.
 
 
-## Sending SMS
+**Sending SMS**
 Send SMS with string: `/usr/bin/atc_tx_pdu_sms $'+46708123456\nHello'`
 or send SMS from file `/usr/bin/atc_tx_pdu_sms <file name>`
 ```
