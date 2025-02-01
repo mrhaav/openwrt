@@ -15,6 +15,9 @@ USB hotplug script add Option driver. You can edit `/etc/hotplug.d/usb/50-fm350_
 Not included in apk file and from ipk version 2025.01.11. Kernel 6.6, and onwards, will detect the FM350-GL.
 
 \
+Update 2025.02.01:
+- Supports atc-sms
+
 Update 2025.01.10:
 - Possibility to add custom AT-commands
 - Receive IPv6 DNS servers via Router Advertisment
