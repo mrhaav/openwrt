@@ -17,7 +17,7 @@ The file name is sent to `/usr/bin/atc_sms_user`. Create your own SMS based comm
 
 ## Sending SMS
 Send SMS with string: `/usr/bin/atc_tx_pdu_sms $'+46708123456\nHello'`
-or sned SMS from file `/usr/bin/atc_tx_pdu_sms <file name>`
+or send SMS from file `/usr/bin/atc_tx_pdu_sms <file name>`
 ```
 +46708123456
 Hello
