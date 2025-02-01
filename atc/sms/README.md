@@ -1,6 +1,6 @@
 # SMS
 
-SMS support to the atc protocol.\
+SMS support to the atc protocol.
 
 
 **Receiving SMS**\
@@ -12,7 +12,7 @@ Hello
 Reset router
 ```
 The file name is sent to `/usr/bin/atc_sms_user`. Create your own SMS based commands in `/usr/bin/atc_sms_user`.\
-`/usr/bin/atc_sms_user` is not included.\
+`/usr/bin/atc_sms_user` is not included.
 
 
 **Sending SMS**\
