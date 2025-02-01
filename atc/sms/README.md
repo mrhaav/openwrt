@@ -8,7 +8,6 @@ Received SMS are stored in `/var/sms/rx` folder.
 The SMS is stored as sender number in the first line and the text in the following lines.
 ```
 +46708123456
-Hello
 Reset router
 ```
 The file name is sent to `/usr/bin/atc_sms_user`. Create your own SMS based commands in `/usr/bin/atc_sms_user`.\
