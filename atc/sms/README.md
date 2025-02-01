@@ -26,8 +26,8 @@ or send SMS from file `/usr/bin/atc_tx_pdu_sms <file name>`
 +46708123456
 Hello
 ```
-\
-\
+
+
 ##
 \
 atc-sms only support ascii characters h'20 - h'7E, but not h'60.
