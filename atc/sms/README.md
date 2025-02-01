@@ -1,7 +1,7 @@
 # SMS
 
-SMS support to the atc protocol.
-
+SMS support to the atc protocol.\
+\
 
 **Receiving SMS**\
 Received SMS are stored in `/var/sms/rx` folder.
@@ -12,8 +12,8 @@ Hello
 Reset router
 ```
 The file name is sent to `/usr/bin/atc_sms_user`. Create your own SMS based commands in `/usr/bin/atc_sms_user`.\
-`/usr/bin/atc_sms_user` is not included.
-
+`/usr/bin/atc_sms_user` is not included.\
+\
 
 **Sending SMS**\
 Send SMS with string: `/usr/bin/atc_tx_pdu_sms $'+46708123456\nHello'`
