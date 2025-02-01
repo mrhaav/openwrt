@@ -2,6 +2,13 @@
 
 SMS support to the atc protocol.\
 \
+Download and install with:
+
+OPKG
+```
+wget https://github.com/mrhaav/openwrt/raw/master/atc/sms/atc-sms_2025.01.30-r2_all.ipk
+opkg install atc-sms_2025.01.30-r2_all.ipk
+```
 \
 **Receiving SMS**\
 Received SMS are stored in `/var/sms/rx` folder.
