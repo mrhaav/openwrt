@@ -37,6 +37,7 @@ Content of `81600.0000.00.29.23.06` folder\
 - Click Download tab and choose from `donwload_agent` folder
   - Download-XML `flash.xml`
   - Authentication File `auth_sv5.auth`
+- If you don´t have file `DEV_OTA.img`, uncheck it
 - Set to **Donwload Only** mode
 - Click the Download buttom
 - Connect the modem to your computer and the upgrade process should begin
