@@ -11,8 +11,8 @@ To be used with `luci-proto-atc`\
 Download and install with:
 
 ```
-wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-l8x0_gl/atc-fib-l8x0_gl_2025-09-06-0.3_all.ipk
-opkg install atc-fib-l8x0_gl_2025-09-06-0.3_all.ipk
+wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-l8x0_gl/atc-fib-l8x0_gl_2025-09-06-r0.3_all.ipk
+opkg install atc-fib-l8x0_gl_2025-09-06-r0.3_all.ipk
 ```
 \
 Change to NCM mode with `AT+GTUSBMODE=0`
