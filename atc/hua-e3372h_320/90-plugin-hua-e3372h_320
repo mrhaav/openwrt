@@ -1,0 +1,7 @@
+if [ "$PRODUCT" = '12d1/155e/102' ] && [ "$INTERFACE" = '10/0/1' ] && [ "$ACTION" = 'bind' ]
+then
+    logger -t hotplug 'Plugged in Huawei E3372h-320 modem'
+    wanIface=$(uci show network | grep "proto='atc'" | awk -F '.' '{print $2}')
+    ifup $wanIface
+fi
+
