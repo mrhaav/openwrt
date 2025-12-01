@@ -9,7 +9,8 @@ kmod-usb-serial-option
 comgt
 usb-modeswitch
 ```
-Use the third `/dev/ttyUSBx` device.
+Use the third `/dev/ttyUSBx` device to `atc`.\
+
 \
 Download and install with:
 ```
