@@ -9,7 +9,7 @@ kmod-usb-serial-option
 comgt
 usb-modeswitch
 ```
-
+Use the third `/dev/ttyUSBx` device.
 \
 Download and install with:
 ```
