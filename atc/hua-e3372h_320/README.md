@@ -10,6 +10,14 @@ comgt
 usb-modeswitch
 ```
 
+\
+Download and install with:
+```
+wget https://github.com/mrhaav/openwrt/raw/master/atc/hua-e3372h_320/atc-hua-e3372h_320_2025-11-20-r0.1_all.ipk
+opkg install atc-hua-e3372h_320_2025-11-20-r0.1_all.ipk
+```
+
+\
 Use usb-modeswitch to switch to NCM mode.\
 You need to add a new message and change the device entry of 12d1:1f01.\
 Thanks to to user `woec` at OpenWrt forum who provided the informtion, https://forum.openwrt.org/t/huawei-e3372h-320-in-ncm-mode/126018/12
@@ -53,11 +61,4 @@ I:  If#= 4 Alt= 0 #EPs= 0 Cls=0a(data ) Sub=00 Prot=01 Driver=cdc_ncm
 I:* If#= 4 Alt= 1 #EPs= 2 Cls=0a(data ) Sub=00 Prot=01 Driver=cdc_ncm
 E:  Ad=86(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
 E:  Ad=05(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
-```
-
-\
-Download and install with:
-```
-wget https://github.com/mrhaav/openwrt/raw/master/atc/hua-e3372h_320/atc-hua-e3372h_320_2025-11-20-r0.1_all.ipk
-opkg install atc-hua-e3372h_320_2025-11-20-r0.1_all.ipk
 ```
