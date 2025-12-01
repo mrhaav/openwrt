@@ -26,6 +26,7 @@ Add message `"55534243123456780000000000000011063000000000010000000000000000"` a
         }
 ```
 Where xx is the message entry of the newly added message. Verify with `jsonfilter -i /etc/usb-mode.json -e '@["messages"][xx]'`. In my case xx = 61.\
+
 \
 `cat /sys/kernel/debug/usb/devices` after `usb-modeswitch`:
 ```
@@ -54,7 +55,7 @@ E:  Ad=86(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
 E:  Ad=05(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
 ```
 
-
+\
 Download and install with:
 ```
 wget https://github.com/mrhaav/openwrt/raw/master/atc/hua-e3372h_320/atc-hua-e3372h_320_2025-11-20-r0.1_all.ipk
