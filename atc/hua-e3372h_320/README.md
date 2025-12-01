@@ -25,9 +25,9 @@ Add message `"55534243123456780000000000000011063000000000010000000000000000"` a
                 }
         }
 ```
-Where xx is the message entry of the newly added message. Verify with `jsonfilter -i /etc/usb-mode.json -e '@["messages"][xx]'`. In my case xx = 61.
-
-`cat /sys/kernel/debug/usb/devices` `after usb-modeswithc`:
+Where xx is the message entry of the newly added message. Verify with `jsonfilter -i /etc/usb-mode.json -e '@["messages"][xx]'`. In my case xx = 61.\
+\
+`cat /sys/kernel/debug/usb/devices` after `usb-modeswitch`:
 ```
 T:  Bus=01 Lev=01 Prnt=01 Port=00 Cnt=01 Dev#=  8 Spd=480  MxCh= 0
 D:  Ver= 2.00 Cls=02(comm.) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
