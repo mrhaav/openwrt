@@ -9,7 +9,7 @@ kmod-usb-serial-option
 comgt
 usb-modeswitch
 ```
-To be used with `luci-proto-atc`.\
+To be used with `luci-proto-atc`.
 
 Use the third `/dev/ttyUSBx` device with `atc`.
 
