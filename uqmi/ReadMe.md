@@ -3,7 +3,7 @@
 Customized uqmi with APN profiles.
 More information and source code: https://github.com/mrhaav/openwrt-packages/blob/main/README.md
 
-Latest version: 2022-11-29-0.10
+Latest version: 2022-11-29-0.12
 
 From version 2022-09-13-0.9, an SMS receive/send function and a connectivity daemon are included.\
 The SMS is stored in /var/sms/received and the file name is sent to script /usr/bin/uqmi_sms.sh (uqmi_sms.sh is not included in the ipk file).
