@@ -1,4 +1,4 @@
-# ZTE MR286R
+# ZTE MF286R
 
 With Marvell PXA1826 modem
 
