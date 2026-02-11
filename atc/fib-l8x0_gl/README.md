@@ -8,7 +8,7 @@ comgt
 ```
 To be used with `luci-proto-atc`\
 \
-Download and install with:
+Download and install with:\
 \
 IPK
 ```
@@ -21,8 +21,9 @@ APK
 wget https://github.com/mrhaav/openwrt/raw/master/atc/fib-l8x0_gl/atc-fib-l8x0_gl-2025.09.06-r3.apk
 apk add --allow-untrusted atc-fib-l8x0_gl-2025.09.06-r3.apk
 ```
-You need to add `all` in file `/etc/apk/arch`\
+You need to add `all` in file `/etc/apk/arch`
 
+\
 \
 Change to NCM mode with `AT+GTUSBMODE=0`
 
