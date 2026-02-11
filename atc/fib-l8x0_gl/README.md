@@ -6,7 +6,9 @@ kmod-usb-acm
 kmod-usb-net-cdc-ncm
 comgt
 ```
-To be used with `luci-proto-atc`\
+To be used with `luci-proto-atc`
+
+\
 \
 Download and install with:\
 \
