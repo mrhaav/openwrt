@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "architecture": "x86_64",
+  "packages": {
+    "atc-fib-fg621_ea": "2025.06.12-r2",
+    "atc-fib-fm350_gl": "2025.08.24-r3",
+    "atc-fib-l8x0_gl": "2025.09.06-r3",
+    "atc-hua-e3372h_320": "2025.11.20-r1",
+    "atc-hua-me909s_120": "2026.02.26-r1",
+    "atc-mik-r11e_lte": "2024.06.05-r1",
+    "atc-mik-r11e_lte6": "2023.08.27-r1",
+    "atc-rssi_d": "2025.03.17-r1",
+    "atc-sms": "2025.02.02-r2",
+    "atc-zte-mf286r": "2025.12.07-r1",
+    "loopiaapi": "2022.11.12-r8",
+    "luci-proto-atc": "2025.01.10-r2"
+  }
+}
