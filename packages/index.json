@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "architecture": "x86_64",
+  "packages": {
+    "atc-hua-me909s_120": "2026.02.26-r1",
+    "atc-sms": "2025.02.02-r2",
+    "loopiaapi": "2022.11.12-r8",
+    "luci-proto-atc": "2025.01.10-r2"
+  }
+}
