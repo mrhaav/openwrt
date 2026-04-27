@@ -12,7 +12,14 @@ To be used with `luci-proto-atc`\
 \
 Download and install with:
 
+OPKG
 ```
 wget https://github.com/mrhaav/openwrt/raw/master/atc/zte-mf286r/atc-zte-mr286r_2025-12-07-0.1_all.ipk
 opkg install atc-zte-mr286r_2025-12-07-0.1_all.ipk
+```
+
+APK
+```
+wget https://github.com/mrhaav/openwrt/raw/master/atc/zte-mf286r/atc-zte-mr286r_2025.12.07-r1.apk
+apk add --allow-untrusted atc-zte-mr286r_2025.12.07-r1.apk
 ```
